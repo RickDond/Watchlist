@@ -1,1 +1,0 @@
-web: gunicorn "wl:create_app()"

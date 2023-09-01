@@ -28,7 +28,6 @@ def index():
     user = User(**user_data)
 
     movie_data = current_app.db.movie.find({"_id": {"$in": user.movies}})
-    #movie_data = current_app.db.movie.find({})
     movies = [Movie(**movie) for movie in movie_data]
 
     return render_template(
