@@ -8,3 +8,6 @@ Flask - HMTL - CSS - MongoDB
 website: https://watchlist-1nrd.onrender.com/login
 user: guest@test.com
 pass: guest
+
+# Based on Udemy Course:
+https://www.udemy.com/course/web-developer-bootcamp-flask-python
