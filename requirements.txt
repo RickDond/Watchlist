@@ -23,4 +23,3 @@ itsdangerous
 certifi
 setuptools
 email_validator
-uvicorn
